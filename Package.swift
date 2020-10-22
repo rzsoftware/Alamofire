@@ -27,6 +27,10 @@ import PackageDescription
 
 let package = Package(
     name: "Alamofire",
+    platforms: [
+        .iOS(.v10),
+        .tvOS(.v10),
+    ],
     products: [
         .library(
             name: "Alamofire",
